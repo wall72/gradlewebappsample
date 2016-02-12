@@ -118,3 +118,9 @@ public class DateUtils {
 ####; 서버 추가
 ####; Add > 프로젝트 추가
 ####; 접속 테스트
+
+
+###License(저작권)
+Copyright 2016 Cliff W. Lee
+Released under the MIT license
+changho.lee@gmail.com
