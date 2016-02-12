@@ -122,6 +122,6 @@ public class DateUtils {
 ---
 
 ###License(저작권)
-Copyright 2016 Cliff W. Lee
-Released under the MIT license
-changho.lee@gmail.com
+#####Copyright 2016 Cliff W. Lee
+#####Released under the MIT license
+#####changho.lee@gmail.com
