@@ -1,12 +1,12 @@
 # GradleWebAppSample
 Gradle Web Application Sample
 
-###1. Gradle Project 생성
+####1. Gradle Project 생성
 
-###2. sample > Java Quickstart
+####2. sample > Java Quickstart
 
-###3. eclipse wtp 프로젝트 변환
-####; build.gradle 수정
+####3. eclipse wtp 프로젝트 변환
+; build.gradle 수정
 
 ```{.no-highlight}
 apply plugin: ‘war'
@@ -25,20 +25,20 @@ eclipse {
 }
 ```
 
-####; Gradle build… > ‘eclipse'
+; Gradle build… > ‘eclipse'
 
-###4. Project Dependency 추가
-####; build.gradle
+####4. Project Dependency 추가
+; build.gradle
 
 ```{.no-highlight}
 compile "joda-time:joda-time:2.4"
 compile "javax.servlet:servlet-api:2.5"
 ```
 
-####; Gradle > Refresh All
+; Gradle > Refresh All
 
-###5. web 폴더 및 소스 추가
-####; src/main/webapp > index.jsp
+####5. web 폴더 및 소스 추가
+; src/main/webapp > index.jsp
 
 ```{.jsp}
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -48,7 +48,7 @@ compile "javax.servlet:servlet-api:2.5"
 </html>
 ```
 
-####; src/main/webapp/WEB-INF > web.xml
+; src/main/webapp/WEB-INF > web.xml
 
 ```{.xml}
 <?xml version="1.0" encoding="utf-8"?>
@@ -73,9 +73,9 @@ compile "javax.servlet:servlet-api:2.5"
 </web-app>
 ```
 
-###6. servlet 및 POJO 소스 추가
+####6. servlet 및 POJO 소스 추가
 
-####; SampleServlet 추가
+; SampleServlet 추가
 
 ```{.java}
 package org.gradle;
@@ -92,7 +92,7 @@ public class SampleServlet extends HttpServlet {
 }
 ```
 
-####; DateUtil 추가
+; DateUtil 추가
 
 ```{.java}
 package org.gradle;
@@ -110,18 +110,21 @@ public class DateUtils {
 }
 ```
 
-###7. Gradle Assemble
-####; Gradle build… > assemble
-####; war 생성 확인
+####7. Gradle Assemble
+; Gradle build… > assemble
+
+; war 생성 확인
 
 ###8. Local Server 기동 확인
-####; 서버 추가
-####; Add > 프로젝트 추가
-####; 접속 테스트
+; 서버 추가
+
+; Add > 프로젝트 추가
+
+; 접속 테스트
 
 ---
 
 ###License(저작권)
-#####Copyright 2016 Cliff W. Lee
-#####Released under the MIT license
-#####changho.lee@gmail.com
+* Copyright 2016 Cliff W. Lee
+* Released under the MIT license
+* Email : changho.lee@gmail.com
