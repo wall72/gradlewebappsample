@@ -1,11 +1,11 @@
-### GradleWebAppSample
+# GradleWebAppSample
 * Gradle Web Application Sample
 
-####1. Gradle Project 생성
+### 1. Gradle Project 생성
 
-####2. sample > Java Quickstart
+### 2. sample > Java Quickstart
 
-####3. eclipse wtp 프로젝트 변환
+### 3. eclipse wtp 프로젝트 변환
 * build.gradle 수정
 
 ```{.no-highlight}
@@ -27,7 +27,7 @@ eclipse {
 
 * Gradle build… > ‘eclipse'
 
-####4. Project Dependency 추가
+### 4. Project Dependency 추가
 * build.gradle
 
 ```{.no-highlight}
@@ -37,7 +37,7 @@ compile "javax.servlet:servlet-api:2.5"
 
 * Gradle > Refresh All
 
-####5. web 폴더 및 소스 추가
+### 5. web 폴더 및 소스 추가
 
 * src/main/webapp > index.jsp
 
@@ -74,7 +74,7 @@ compile "javax.servlet:servlet-api:2.5"
 </web-app>
 ```
 
-####6. servlet 및 POJO 소스 추가
+### 6. servlet 및 POJO 소스 추가
 
 * SampleServlet 추가
 
@@ -111,11 +111,11 @@ public class DateUtils {
 }
 ```
 
-####7. Gradle Assemble
+### 7. Gradle Assemble
 * Gradle build… > assemble
 * war 생성 확인
 
-###8. Local Server 기동 확인
+### 8. Local Server 기동 확인
 * 서버 추가
 * Add > 프로젝트 추가
 * 접속 테스트
